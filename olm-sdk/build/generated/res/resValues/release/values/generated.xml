@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Automatically generated file. DO NOT MODIFY -->
+
+    <!-- Values from build type: release -->
+    <string name="git_olm_revision" translatable="false">""</string>
+    <string name="git_olm_revision_date" translatable="false">""</string>
+    <string name="git_olm_revision_unix_date" translatable="false">""</string>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OlmSdk</string>
+    <string name="git_olm_revision" translatable="false">""</string>
+    <string name="git_olm_revision_date" translatable="false">""</string>
+    <string name="git_olm_revision_unix_date" translatable="false">""</string>
+</resources>
