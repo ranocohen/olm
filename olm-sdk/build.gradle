@@ -1,8 +1,10 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
 apply plugin: 'com.android.library'
+
 apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.ranocohen'
+
+group='com.github.ranocohen'
 
 android {
     compileSdkVersion 21
@@ -76,15 +78,22 @@ android {
     clean.dependsOn cleanNative
 
 
-    libraryVariants.all { variant ->
-        variant.outputs.each { output ->
-            def outputFile = output.outputFile
-            if (outputFile != null && outputFile.name.endsWith('.aar')) {
-                def fileName = outputFile.name.replace(".aar", "-${version}.aar")
-                output.outputFile = new File(outputFile.parent, fileName)
-            }
-        }
-    }
+//    libraryVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith('.aar')) {
+//                def fileName = outputFile.name.replace(".aar", "-${version}.aar")
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+//    }
+
+    //should migrate  to
+//    android.applicationVariants.all { variant ->
+//        variant.outputs.all {
+//            outputFileName = "${variant.name}-${variant.versionName}.apk"
+//        }
+//    }
 }
 
 def getNdkFolder() {
