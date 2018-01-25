@@ -4,8 +4,8 @@
     <!-- Automatically generated file. DO NOT MODIFY -->
 
     <!-- Values from build type: release -->
-    <string name="git_olm_revision" translatable="false">""</string>
-    <string name="git_olm_revision_date" translatable="false">""</string>
-    <string name="git_olm_revision_unix_date" translatable="false">""</string>
+    <string name="git_olm_revision" translatable="false">"0c67c28"</string>
+    <string name="git_olm_revision_date" translatable="false">"2018-01-24 16:33:37 +0200"</string>
+    <string name="git_olm_revision_unix_date" translatable="false">"1516804417"</string>
 
 </resources>
